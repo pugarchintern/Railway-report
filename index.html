@@ -3993,43 +3993,43 @@
             name: "Booking Staff Office washroom",
             labels: ["Day 1–15", "Day 16–30", "Day 31–45", "Day 46–60"],
             data: [7.43, 7.47, 7.4, null],
-            current: 7.4,
+            // current: 7.4,
           },
           {
             name: "HandiCap Kamthee Railway station",
             labels: ["Day 1–15", "Day 16–30", "Day 31–45", "Day 46–60"],
             data: [6.52, 6.5, 6.73, 7.67],
-            current: 7.67,
+            // current: 7.67,
           },
           {
             name: "Kamthee station beside entry",
             labels: ["Day 1–15", "Day 16–30", "Day 31–45", "Day 46–60"],
             data: [6.53, 6.68, 5.99, 3.81],
-            current: 3.81,
+            // current: 3.81,
           },
           {
             name: "Kamthee station last one (1st visit)",
             labels: ["Day 1–15", "Day 16–30", "Day 31–45", "Day 46–60"],
             data: [6.79, 6.83, 6.5, 4.6],
-            current: 4.6,
+            // current: 4.6,
           },
           {
             name: "Pannel Office 1st floor",
             labels: ["Day 1–15", "Day 16–30", "Day 31–45", "Day 46–60"],
             data: [8.12, 8.42, 8.3, 8.8],
-            current: 8.27,
+            // current: 8.27,
           },
           {
             name: "Rpf Staff Washroom",
             labels: ["Day 1–15", "Day 16–30", "Day 31–45", "Day 46–60"],
             data: [7.8, 8.2, 7.63, 7.12],
-            current: 7.12,
+            // current: 7.12,
           },
           {
             name: "Ss Office washroom",
             labels: ["Day 1–15", "Day 16–30", "Day 31–45", "Day 46–60"],
             data: [8.7, 8.53, 8.19, 7.8],
-            current: 7.8,
+            // current: 7.8,
           },
         ];
 
@@ -4047,10 +4047,7 @@
                 <span class="px-2 py-0.5 bg-sky-50 text-sky-700 text-[10px] font-bold rounded border border-sky-100 uppercase">AI Monitored</span>
             </div>
             <div class="h-44 w-full"><canvas id="washroomChart${index + 1}"></canvas></div>
-            <div class="mt-4 pt-3 border-t border-slate-100 flex justify-between items-center">
-                <span class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Current AI Rating</span>
-                <span class="text-lg font-bold text-sky-600">${config.current} <span class="text-slate-400 text-xs">/ 10</span></span>
-            </div>
+          
         `;
           container.appendChild(card);
 
